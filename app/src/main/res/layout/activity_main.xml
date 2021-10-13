@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_quote"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/tv_creator"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_quote"/>
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="256dp"
+        android:layout_height="42dp"
+        android:background="@drawable/btn_secondary"
+        android:layout_below="@+id/tv_creator"
+        android:layout_marginTop="60dp"
+        android:paddingStart="8dp"
+        android:hint="input"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/btn_count"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_input"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_primary"
+        android:fontFamily="@font/montserrat_semibold"
+        android:paddingVertical="14dp"
+        android:text="Set Plan"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_howCount"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_count"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_secondary"
+        android:fontFamily="@font/montserrat_semibold"
+        android:paddingVertical="14dp"
+        android:text="wanna know how we count?"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlue"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_howCount"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center"
+        android:text="little tips for healthy wallet"
+        style="@style/textColor"
+        android:textSize="12sp" />
+
+</RelativeLayout>

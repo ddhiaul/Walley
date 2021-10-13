@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Walley</string>
+    <string name="error_empty_field">Cannot be empty</string>
+</resources>

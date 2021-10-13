@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_marginStart="38dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Your Money"
+                android:textSize="18sp"
+                style="@style/textColor"/>
+            <TextView
+                android:id="@+id/tv_inputed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="38dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Rp 0"
+                android:textSize="24sp"
+                android:textColor="@color/colorOrange"/>
+            <TextView
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="48dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="you can spend it on something you needed this much :"
+                style="@style/textColor"
+                android:textSize="14dp"/>
+            <TextView
+                android:id="@+id/tv_resultNeeded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="38dp"
+                android:layout_marginTop="14dp"
+                android:gravity="end"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Rp 0"
+                android:textColor="@color/colorOrange"
+                android:textSize="18sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorBlue"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="22dp"/>
+            <TextView
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="you can spend it on making your asset this much :"
+                style="@style/textColor"
+                android:textSize="14dp"/>
+            <TextView
+                android:id="@+id/tv_resultAsset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="38dp"
+                android:layout_marginTop="14dp"
+                android:gravity="end"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Rp 0"
+                android:textColor="@color/colorOrange"
+                android:textSize="18sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorBlue"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="22dp"/>
+            <TextView
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="you can spend it on making your investment this much :"
+                style="@style/textColor"
+                android:textSize="14dp"/>
+            <TextView
+                android:id="@+id/tv_resultInvestmen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="38dp"
+                android:layout_marginTop="14dp"
+                android:gravity="end"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Rp 0"
+                android:textColor="@color/colorOrange"
+                android:textSize="18sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorBlue"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="22dp"/>
+            <TextView
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="you can spend it on something you wanted this much :"
+                style="@style/textColor"
+                android:textSize="14dp"/>
+            <TextView
+                android:id="@+id/tv_resultWanted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="38dp"
+                android:layout_marginTop="14dp"
+                android:gravity="end"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Rp 0"
+                android:textColor="@color/colorOrange"
+                android:textSize="18sp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorBlue"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="22dp"/>
+            <TextView
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="you can save it for your future this much :"
+                style="@style/textColor"
+                android:textSize="14dp"/>
+            <TextView
+                android:id="@+id/tv_resultSaved"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="38dp"
+                android:layout_marginTop="14dp"
+                android:gravity="end"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Rp 0"
+                style="@style/textColor"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="8dp"
+                android:layout_marginHorizontal="64dp"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/disclaimer"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="the result is based on math count, you can change it on your own."
+                android:textSize="10sp"
+                android:textColor="@color/colorRed"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="use your money wisely :)"
+                android:textSize="18sp"
+                android:textColor="@color/colorGray"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
